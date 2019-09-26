@@ -1,9 +1,9 @@
 <?php
-$i = 1;
-for (; ; ) {
-    if ($i > 10) {
-        break;
-    }
-    echo $i;
-    $i++;
-}
+
+for ($num = 1; $num <= 10; $num += 1  ) { 
+    echo "$num \n"; 
+}  
+  
+
+
+?>
